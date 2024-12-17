@@ -1,0 +1,135 @@
+/* App.css */
+/* App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.main_div {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(120deg, #1e1e2f, #23232e, #2c2c38);
+  color: #e4e4e7; /* Light text for dark background */
+}
+
+.main_div {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(120deg, #23232e, #2a2a36, #1f1f28);
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+h1 {
+  color: #ffffff;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.grid {
+  gap: 20px;
+}
+
+.grid-cols-30-auto {
+  display: grid;
+  grid-template-columns: 30% auto;
+}
+
+.grid-cols-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.shadow-lg {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4), 0px 4px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  background: #2d2d3b;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.shadow-lg:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.6);
+}
+
+img {
+  border-bottom: 1px solid #444;
+  object-fit: cover;
+}
+
+.text-center {
+  text-align: center;
+}
+
+h4 {
+  font-size: 18px;
+  color: #e4e4e7;
+  margin: 15px 0 10px;
+  text-transform: capitalize;
+}
+
+b {
+  color: #a3e635; /* Bright green price for emphasis */
+  font-size: 16px;
+}
+
+.pv-4 {
+  padding: 20px;
+}
+
+.button {
+  display: inline-block;
+  background-color: #4f46e5;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #3730a3;
+  transform: scale(1.1);
+}
+
+.no-products {
+  text-align: center;
+  color: #888;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+/* Smooth Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
