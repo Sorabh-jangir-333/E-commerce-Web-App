@@ -1,0 +1,52 @@
+/* Category.css */
+.category-container {
+    background: #2a2a36; /* Dark background for the category section */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    color: #e4e4e7;
+  }
+  
+  .category-header {
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px;
+    text-transform: capitalize;
+    color: #a3e635; /* Bright green header for product categories */
+    border-bottom: 2px solid #444; /* Subtle underline for separation */
+    margin-bottom: 15px;
+  }
+  
+  .category-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .category-item {
+    background: #1f1f28; /* Dark background for each item */
+    padding: 10px 15px;
+    font-size: 20px;
+    font-family: 'Serif';
+    font-weight: 500;
+    color: #e4e4e7;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .category-item:hover {
+    background: #3730a3; /* Blue shade on hover */
+    color: #ffffff; /* White text on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Hover shadow */
+  }
+  
+  .category-item:active {
+    background: #4f46e5; /* Deep blue for active state */
+    box-shadow: inset 0px 4px 6px rgba(0, 0, 0, 0.6); /* Inset shadow for click effect */
+  }
+  
